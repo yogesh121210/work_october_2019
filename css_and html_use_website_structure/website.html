@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Responsive Website(Side Menu)</title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="website.css"> 
+       
+</head>
+<body>
+
+        <div class="sidenav">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">WORK</a>
+                <a href="#">PROCESS</a>
+                <a href="#">SERVICES</a>
+                <a href="#">CONTACT</a>
+        </div>
+        <div class="main">
+                <div class="header">
+                        <div class="w3-content w3-section" style="width:100%">
+                         <img class="mySlides w3-animate-top" src="images/download (3).jpg" style="width:100%">
+                         <img class="mySlides w3-animate-bottom" src="images/download (3).jpg" style="width:100%">
+                         <img class="mySlides w3-animate-top" src="images/download (3).jpg" style="width:100%">
+                         <img class="mySlides w3-animate-bottom" src="images/download (3).jpg" style="width:100%">
+                        </div>
+                    </div>
+              <div class="row">
+                <div class="leftcolumn">
+
+                    <div class="card">
+                            <img src="images/download (3).jpg ">
+                            <img src="images/download (3).jpg ">
+                            <img src="images/download (3).jpg ">
+                            <img src="images/download (3).jpg ">
+                    </div>
+                    <div class="card">
+                        <h2> Section Two</h2>
+                        <h5>Title description</h5>
+                      <div class="demoimg" style="height:200px;">Image</div>
+                      <p>Some text..</p>
+                      <p>In geometry and science, a cross section is the non-empty intersection of a solid body in three-dimensional space with a plane, or the analog in higher-dimensional spaces.
+                           Cutting an object into slices creates many parallel cross sections.</p>
+                    </div>
+              </div>
+              <div class="rightcolumn">
+                <div class="card">
+                  <h2>About Me</h2>
+                  <div class="demoimg" style="height:100px;">Image</div>
+                  <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                </div>
+                <div class="card">
+                  <h3>Popular Post</h3>
+                  <div class="demoimg">Image</div><br>
+                  <div class="demoimg">Image</div><br>
+                  <div class="demoimg">Image</div>
+                </div>
+                <div class="card">
+                  <h3>Follow Me</h3>
+                  <p>Some text..</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="footer">
+                <h2>Footer</h2>
+            </div>
+
+        </div>
+        
+        <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 2500);    
+                }
+                </script> 
+</body>
+</html>

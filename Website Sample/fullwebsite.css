@@ -1,0 +1,123 @@
+body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+ .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #205081;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity:0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #ffffff !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #1f185f !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu-main li a:hover {
+      background-color: #1f185f !important;
+  }
+  .menu-custom-ul .menu-custom-li a:hover {
+	  background-color: #1f185f !important;
+  }
+  .menu-custom-ul .menu-custom-li:hover ul.dropdown-menu {
+	  display:block;
+  }
+  .menu-custom-ul .menu-custom-li:hover ul.dropdown-menu li{
+	  display:block;
+  }
+  .slide
+  {
+	font-family: Montserrat, sans-serif;
+    font-size:20px;
+    color:red;
+    letter-spacing:3px;	
+  }
+  
+    .page
+  {
+     -webkit-column-count:3;
+	 -moz-column-count:3;
+	 -column-count:3;
+	 
+	 -webkit-column-gap:40px;
+	 -moz-column-gap:40px;
+	 -column-count:gap:40px;
+	 
+	 -webkit-column-rule-style:solid;
+	 -moz-column-rule-style:solid;
+	 -column-rule-style:solid;
+	 
+	 -webkit-column-rule-width:1px solid red;
+	 -moz-column-gap-width:1px solid red;
+	 -column-count:gap-width:1px solid red;
+  }
+  .page
+  
+  {
+     text-align: justify;
+  }
+   h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 24px;
+      color: #111;
+  }
+  .carousel-inner .item > img
+  {
+      width: 100%;
+	  height:400px;
+     
+  }
+  h1
+  {
+	  background-color:#dff0d8;
+	  font-size:40px;
+	  letter-spacing:9px;
+	  word-spacing:15px;
+	  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  .p2
+  {
+	 text-align: justify; 
+  }
+  .img1
+  {
+	  width:130px;
+	  height:90px;
+  }
+   footer
+  {
+	  height:45px;
+      background-color: #1f185f;
+      color: #f5f5f5;
+  }
+  
+  
+  
+  
+  
+  
+  

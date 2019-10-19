@@ -1,0 +1,13 @@
+
+.image_parallel {
+    float: left;
+    width: 33.33%;
+    padding: 4px;
+  }
+
+  /* Clear floats after image containers */
+.clear_float::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

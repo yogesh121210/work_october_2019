@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- link to file -->
+  <title>website.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=.7, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="fullwebsite.css"> 
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<!-- Container (The navbar Section) -->
+<nav class="navbar navbar-default navbar-fixed-top">
+ <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+			  
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="menu-custom-ul nav navbar-nav text-center">
+        <li class="menu-custom-li"><a href="#myPage">HOME</a></li>
+		<li class="menu-custom-li"><a href="#myprofashion">SERVICES </a></li>
+		<li class="menu-custom-li"><a href="#contact">CONTACT US </a></li>
+		<li class="menu-custom-li dropdown ">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">COUNTRY</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">India </a></li>
+            <li><a href="#">Brazil</a></li>
+            <li><a href="#">China</a></li>
+            <li><a href="#">France</a></li>
+            <li><a href="#">Japan</a></li>			
+          </ul>
+        </li>
+      </ul>
+	<ul class="menu-custom-ul nav navbar-nav navbar-right in-line">
+	     <li class="menu-custom-li login-links"><a data-toggle="modal" href="#" data-target="#Login">
+	        <span class="glyphicon glyphicon-log-in"></span>Login</a></li> 
+         <li class="menu-custom-li singup-links"><a data-toggle="modal" href="#" data-target="#Signup">
+	        <span class="glyphicon glyphicon-user"></span>Singup</a></li>
+         
+    </ul>
+    </div>
+  </div>
+</nav><br><br><br>
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="Images/web-design-development.jpg" alt="design">
+      </div>
+
+      <div class="item">
+        <img src="Images\template.jpg" alt="design">
+      </div>
+    
+      <div class="item">
+        <img src="Images/careers-banner_2.jpg">
+      </div>
+
+      <div class="item">
+        <img src="Images/design9.jpg">
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div><br>
+
+<!-- Container (The Band Section) -->
+<div id="myprofashion" class="container">
+<div class="container">
+<div class="band text-center">
+  <p><h3 class="bg-success">My Profession</h3></p> 
+  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Web Designing!</a></li>
+    <li><a data-toggle="tab" href="#home1">Web Devlopment!</a></li>
+    <li><a data-toggle="tab" href="#home2">Cloud Computing!</a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3><strong> Web Designer </strong> </h3>
+      <p class="page"> <strong>Web design</strong> encompasses many different skills and disciplines in the production 
+         and maintenance of websites. The different areas of web design include web graphic design; interface design; 
+         authoring, including standardised code and proprietary software; user experience design; and search engine
+         optimization. Often many individuals will work in teams covering different aspects of the design process, 
+         although some designers will cover them all.[1] The term web design is normally used to describe the design
+         process relating to the front-end (client side) design of a website including writing mark up. Web design
+         partially overlaps web engineering in the broader scope of web development. Web designers are expected to
+         have an awareness of usability and if their role involves creating mark up then they are also expected to
+         be up to date with web accessibility guidelines.</p>
+    </div>
+    <div id="home1" class="tab-pane fade">
+      <h3><strong>Web Devlopment </strong></h3>
+      <p class="page"> <strong>Web Devlopment</strong> is the work involved in developing a web site for the Internet
+       (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single
+        static page of plain text to complex web-based internet applications (web apps) electronic businesses, and social
+        network services. A more comprehensive list of tasks to which web development commonly refers, may include web 
+        engineering, web design, web content development, client liaison, client-side/server-side scripting, web server
+        and network security configuration, and e-commerce development. Among web professionals, "web development" usually
+        refers to the main non-design aspects of building web sites: writing markup and coding. Most recently Web development
+        has come to mean the creation of content management systems (CMS). These CMS can be made from scratch, proprietary or
+        open source. In broad terms the CMS acts as middleware between the database and the user through the browser. A principle
+        benefit of a CMS is that it allows non-technical people to make changes to their web site without having technical 
+        knowledge.</p>
+    </div>
+    <div id="home2" class="tab-pane fade">
+      <h3><strong>Cloud Computing </strong></h3>
+      <p class="page"> <strong>Cloud Computing</strong> is shared pools of configurable computer system 
+         resources and higher-level services that can be rapidly provisioned with minimal management effort, often over 
+         the Internet. Cloud computing relies on sharing of resources to achieve coherence and economies of scale, similar
+         to a public utility.Third-party clouds enable organizations to focus on their core businesses instead of expending
+         resources on computer infrastructure and maintenance.[1] Advocates note that cloud computing allows companies to 
+         avoid or minimize up-front IT infrastructure costs. Proponents also claim that cloud computing allows enterprises 
+         to get their applications up and running faster, with improved manageability and less maintenance, and that it 
+         enables IT teams to more rapidly adjust resources to meet fluctuating and unpredictable demand.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!--  start Middel Contain -->
+  <div class="container">
+      <h1>Best reasons for Own-Free-Website.com:</h1><br><br>
+	     <div class="row">
+		     <div class="col-sm-4">
+			  <img src="Images/free.jpg" class="img-rounded center-block img1">
+			   <h2><strong>100% for free!</strong></h2>
+			     <p class="p2">Your wish is to have your own website? We can make this wish come true - 100% free!
+				 With an extra short domain ending ".page.tl" and 1 gigabyte space for your pictures!</p>
+			 </div>
+			 <div class="col-sm-4">
+			  <img src="Images/thumb.jpg" class="img-rounded center-block img1">
+			    <h2><strong>Without any coding skills!</strong></h2>
+			      <p class="p2">To create your own website you don't need any coding skills and only a few minutes.
+				  Using it is a piece of cake!</p>
+			 </div>
+			 <div class="col-sm-4">
+			  <img src="Images/seo.jpg" class="img-rounded center-block img1"> 
+			     <h2><strong>Google optimized!</strong></h2>
+			       <p class="p2">Always one step ahead: your website is optimized with Google right from the start.
+				   The integrated features bring your search engine ranking to perfection!</p>
+			 </div>
+		 </div><br><br>
+		 
+		 <div class="row">
+		     <div class="col-sm-4">
+			    <img src="Images/devices.jpg" class="img-rounded center-block img1">
+			      <h2><strong>Great design templates</strong></h2>
+				 <p class="p2">All templates have been created by a professional designer. Simply choose your favorite 
+				 design: professional or frisky - your website will always look modern!</p>
+			 </div>
+			 <div class="col-sm-4">
+			   <img src="Images/like.jpg" class="img-rounded center-block img1">
+			    <h2><strong>Compatible with web 2.0</strong></h2>
+			      <p class="p2">Dive into the social media: whether Facebook, Twitter or blogs - always up-to-date. 
+				  Connect with all services and the rest of the web!</p>
+			 </div>
+			 <div class="col-sm-4">
+			   <img src="Images/designs.jpg" class="img-rounded center-block img1">
+			     <h2><strong>For all terminal equipment</strong></h2>
+			       <p class="p2">From laptop to smartphone - your new website will always be displayed clearly! 
+				   The homepage designs have been optimized for all display sizes.</p>
+			 </div>
+		 </div><br><br>
+		 
+  </div>
+  <!--  End Middel Contain -->
+  <!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center bg-success">Contact Us</h3>
+  <p class="text-center"><em>We love our fans!</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Fan? Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Contact, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +91 9990518299</p>
+	  <p><span class="glyphicon glyphicon-earphone"></span>Phone: +91 9990518299</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: yogesh121210@gmail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-4 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+		<div class="col-sm-4 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Mobile Number" type="text" required>
+        </div>
+        <div class="col-sm-4 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="bg-success" style="height:22px">
+  </div>
+  <br>
+  <!-- Footer start -->
+     <footer class="text-center">
+      <div class="container">	 
+        <p>© 2018 All Rights Reserved.<a href="#" title="Visit home">HOME</a></p>
+     </div>		
+     </footer>
+
+<!-- Footer end -->
+ <!-- Login Popup -->
+<div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center" id="myModalLabel">Sign In</h4>
+      </div>
+      <div class="modal-body signup-frm">
+  
+   <form>
+   <div class="row">
+   <div class="col-sm-5 col-xs-12">
+   <div class="form-group col-xs-12">
+    <label for="exampleInputEmail1"> User Name</label>
+    <input type="text" class="form-control"  placeholder=" User Name">
+  </div>
+  <div class="form-group col-xs-12">
+    <label for="exampleInputEmail1">Password</label>
+    <input type="password" class="form-control"  placeholder="Enter Password">
+  </div>
+   </div>
+   <div class="col-sm-6 col-xs-12 pull-right top-50px;">
+   
+   </div>
+   </div>
+
+      </div>
+      <div class="modal-footer"> 
+      <div class="row">
+      <div class="col-sm-6 col-xs-6"> 
+      <button type="button" class="btn btn-warning pull-left" >Sign In <span aria-hidden="true"></span></button>
+         <button data-dismiss="modal" class="btn btn-warning pull-left" type="button">Close</button></div>
+       <div class="form-group col-xs-6">
+           <button data-toggle="modal" data-dismiss="modal" data-target="#Signup" class="btn btn-warning pull-right" 
+	       type="button">Welcome! Sing Up</button>
+      </div> 
+      
+       
+       </div>
+       </div>
+          
+     </form>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Login Popup end -->
+ 
+ <!-- Signup Popup -->
+<div class="modal fade" id="Signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+      </div>
+      <div class="modal-body signup-frm">
+  
+   <form>
+   <div class="row">
+  <div class="form-group col-sm-6 col-xs-12">
+    <label for="exampleInputEmail1">First Name</label>
+    <input type="text" class="form-control"  placeholder="Enter First Name">
+  </div>
+  <div class="form-group col-sm-6 col-xs-12">
+    <label for="exampleInputPassword1">Last Name</label>
+    <input type="text" class="form-control"  placeholder="Enter Last Name">
+  </div>
+  </div>
+ 
+  <div class="row">
+  <div class="form-group col-sm-12">
+    <label for="exampleInputEmail1">Choose a Password</label>
+    <input type="password" class="form-control"  placeholder="Enter Password">
+  </div>
+  <div class="form-group col-sm-12">
+    <label for="exampleInputEmail1">Choose a username</label>
+    <input type="text" class="form-control"  placeholder="Choose username">
+  </div>
+  <div class="form-group col-sm-12">
+    <label for="exampleInputEmail1">Choose a Password</label>
+    <input type="password" class="form-control"  placeholder="Enter Password">
+  </div>
+  </div>
+      <div class="modal-footer"> 
+      <div class="row">
+      <div class="col-sm-6 col-xs-12"> 
+      <button type="button" class="btn btn-warning pull-left" >Sign Up <span aria-hidden="true"></span></button>
+         <button data-dismiss="modal" class="btn btn-default pull-left" type="button">Cancle</button></div>
+       <div class="col-sm-6 col-xs-12"><p class="tog-pup"><button type="button" class="btn btn-warning"><a data-toggle="modal" data-dismiss="modal" href="#" data-target="#Login">Login</a> </p></button> 
+         </div>
+         </div>
+          
+        </form>
+      </div>
+    </div>
+  </div>
+</div><br>
+</div>
+ <!-- Signup Popup end -->
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap Slider</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Slider.css">
+</head>
+<body>
+    <div class="container">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+      </ul>
+	  
+      <!-- carousel -->
+      <div class="carousel-inner clear_float">
+        <div class="carousel-item active">
+            <a href="#"><img src="images/IMG_20160402_094147.jpg" class="image_parallel"></a>
+            <a href="#"><img src="images/IMG_20160420_180325.jpg" class="image_parallel"></a>
+            <a href="#"><img src="images/IMG_20160528_224920.jpg" class="image_parallel">
+                <div class="carousel-caption">
+                        <button type="button" class="btn btn-warning">Warning</button>
+                </div></a>
+        </div>      
+        <div class="carousel-item">
+           <a href="#"><img src="images/IMG_20160606_055014.jpg" class="image_parallel"></a>
+           <a href="#"><img src="images/IMG_20160606_055014.jpg" class="image_parallel"></a>
+           <a href="#"><img src="images/IMG_20160614_100300.jpg" class="image_parallel">
+               <div class="carousel-caption">
+                    <button type="button" class="btn btn-warning">Warning</button>
+               </div></a>
+        </div>
+        <!-- icons -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+</div>
+</div>
+</body>
+</html>
